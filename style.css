@@ -1,13 +1,9 @@
-/* Global styles */
-
-/* Reset all default margins and padding */
 * {
     background: #333333;
     margin: 0;
     padding: 0;
 }
 
-/* Set default font family and size */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -48,7 +44,7 @@ footer {
     text-align: center;
 }
 
-aboutme{
+* aboutme{
     font-size: 18px;
     margin-bottom: 20px;
     background: #333333;
