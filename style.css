@@ -2,6 +2,7 @@
 
 /* Reset all default margins and padding */
 * {
+    background: #333333;
     margin: 0;
     padding: 0;
 }
