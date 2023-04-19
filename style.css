@@ -5,7 +5,6 @@
 }
 
 body {
-    text-decoration-color: white;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -45,11 +44,14 @@ footer {
     text-align: center;
 }
 
-* aboutme{
+h1{
+    color: white;
     font-size: 18px;
     margin-bottom: 20px;
     background: #333333;
 }
-
+p {
+color: white;
+}
 
 
