@@ -1,23 +1,20 @@
-* {
+{
     background: black;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-/* Set max width for the content to be centered on larger screens */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Navigation styles */
 nav {
     color: #fff;
     display: flex;
@@ -36,7 +33,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -68,5 +64,10 @@ picture{
     border: white;
     width: 200px;
     height: 100px;
+}
+contact{
+    margin: auto;
+    letter-spacing: normal;
+    color: white;
 }
 
