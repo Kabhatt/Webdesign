@@ -53,7 +53,13 @@ h1{
 p {
 color: white;
 }
-.data2{
+data{
+    background-color: antiquewhite;
+    color: black;
+    outline:black;
+    border-color: black;
+}
+data2{
     background-color: black;
     text-align: center;
 }
