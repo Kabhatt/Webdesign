@@ -34,10 +34,12 @@ nav a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    color: white;
     padding: 10px;
     text-align: center;
+    margin: auto;
+    letter-spacing: normal;
+
 }
 
 h1{
@@ -65,9 +67,5 @@ picture{
     width: 200px;
     height: 100px;
 }
-contact{
-    margin: auto;
-    letter-spacing: normal;
-    color: white;
-}
+
 
