@@ -63,5 +63,10 @@ data2{
     background-color: black;
     text-align: center;
 }
-
+picture{
+    align-items: center;
+    border: white;
+    width: 200px;
+    height: 100px;
+}
 
