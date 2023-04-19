@@ -24,7 +24,8 @@
 <form method="post">
     <div class="menu">
         <label for="menu">Choose an option:</label>
-            <option value="index.html">Home</option>
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="index.html">Home</option>
             <option value="data.html">Data</option>
             <option value="science.html">Scientific</option>
             <option value="blog.html">Miscellaneous</option>
