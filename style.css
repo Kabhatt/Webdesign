@@ -270,10 +270,10 @@ nav ul li a:hover::after{
 
 /* ------------------------- Contact --------------------- */
 .contact-left{
-    flex-basis: 35%;
+    flex-basis: 100%;
 }
 .contact-right{
-    flex-basis: 60%;
+    flex-basis: none;
 }
 .contact-left p{
     margin-top: 30px;
@@ -301,13 +301,4 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 
-.btn {
-    display: inline-block;
-    background: #808000;
-}
 
-
-.btn .btn2{
-    display: inline-block;
-    background:#808000;
-}
