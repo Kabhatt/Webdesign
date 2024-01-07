@@ -199,13 +199,13 @@
 </script>
 
 <script>
-    const scriptURL = '<https://script.google.com/macros/s/AKfycbz6EXQHGnlPayecBzCtLKdzzWBT4Qx3LcryMr4mdA1b-m1aFQKUWk59Gjz46BVC5-T3Vw/exec>'
-    const form = document.forms['submit-to-google-sheet']
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz6EXQHGnlPayecBzCtLKdzzWBT4Qx3LcryMr4mdA1b-m1aFQKUWk59Gjz46BVC5-T3Vw/exec';
+const form = document.forms['submit-to-google-sheet']
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => console.log('Success!', response))
+    .catch(error => console.error('Error!', error.message))
     })
 </script>
 
