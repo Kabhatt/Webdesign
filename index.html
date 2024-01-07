@@ -24,7 +24,6 @@
                     </ul>
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
-                </div>
                 <div class="header-text">
                     <p>Welcome to my Portfolio Webpage</p>
                     <h1> Hi! I am <span>Kashish</span> <br> a Data Science Specialist with a Bioinformatics Focus</h1>
@@ -182,14 +181,20 @@
 
 <script>
     var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
 
+    // Function to open menu on hover
+    function openmenu() {
         sidemenu.style.right = "0";
     }
-    function closemenu(){
+
+    // Function to close menu when cursor leaves
+    function closemenu() {
         sidemenu.style.right = "-200px";
     }
 
+    // Event listener for hover
+    sidemenu.addEventListener("mouseenter", openmenu);
+    sidemenu.addEventListener("mouseleave", closemenu);
 </script>
 
 
