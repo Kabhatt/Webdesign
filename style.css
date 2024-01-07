@@ -301,9 +301,13 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 
+.btn {
+    display: inline-block;
+    background: #808000;
+}
+
+
 .btn .btn2{
     display: inline-block;
     background:#808000;
-    
-
 }
