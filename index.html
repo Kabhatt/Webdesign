@@ -155,6 +155,7 @@
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -200,13 +201,23 @@
 
 <script>
 const scriptURL = 'https://script.google.com/macros/s/AKfycbz6EXQHGnlPayecBzCtLKdzzWBT4Qx3LcryMr4mdA1b-m1aFQKUWk59Gjz46BVC5-T3Vw/exec';
-const form = document.forms['submit-to-google-sheet']
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById('msg');
+
 form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => console.log('Success!', response))
-    .catch(error => console.error('Error!', error.message))
-    })
+    e.preventDefault();
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            msg.innerHTML = "Thank you for your message, I will get back to you shortly.";
+            setTimeout(function() {
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+});
+
 </script>
 
 
