@@ -368,8 +368,8 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: brown;
-        color: #808000;
+        background: darkgray;
+        color: white;
         position: fixed;
         top: 0;
         right: -200px;
