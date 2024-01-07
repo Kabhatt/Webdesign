@@ -355,6 +355,12 @@ nav .fas{
     display: none;
 }
 
+@media only screen and (min-width: 601px) {
+    i.fa-xmark {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phone-background.avif);
