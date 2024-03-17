@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,195 +10,31 @@
         <script src="https://kit.fontawesome.com/83c6b17d5b.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Bioinformatics</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+<body>
 <!-- about -->
 <div id="Project">
     <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/me.jpeg" alt="Your Image">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">ABOUT ME</h1>
-                <p>I am a software and data science enthusiast, with a Master in Bioinformatics, located in New York.  In my downtime, I am a freelancer who optimizes my skill set and experiences in statistical analysis, data visualization, and software engineering. Being a Graduate of Bioinformatics, my skills are multifaceted. I can develop Machine Learning Techniques, and create small static websites, to conduct data science experiments.  Every Project I take on is done with passion, and done with precision, made to be user-friendly. </p>
-                <div class="tab-titles">
-                    <p class="tab_links active-link" onclick="opentab('skills', event)">Skills</p>
-                    <p class="tab_links" onclick="opentab('experience', event)">Experience</p>
-                    <p class="tab_links" onclick="opentab('education', event)">Education</p>
-                </div>                              
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>DATA SCIENCE</span><br> Jupyter Notebooks, R Studio, SQL, MATLAB, TensorFlow, Pytorch, RapidMinner</li>
-                        <li><span>BIOINFORMATICS</span><br>RNA-Seq, NCBI BLAST, BioPython, Ensembl</li>
-                        <li><span>LANGUAGES</span><br>R', Python, Java Script,</li>
-                        <li><span>OTHER TOOLS</span><br>Tableau, MYSQL, Power BI, Matplotlib, Seaborn, ggplot</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2023 - 2023</span><br> Research Analyst at CDI </li>
-                        <li><span>2021 - 2021</span><br>Financial Analyst at RMA of New Jersey</li>
-                        <li><span> 2017 -2017 </span><br> Research Assistant at New Jersey Public Health Research Institute</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2023</span><br> Masters of Science in Bioinformatics from NJIT, Newark</li>
-                        <li><span>2020</span><br> Python Training from TekTaurus </li>
-                        <li><span>2018</span><br>Bachelors of Arts in Psychology from Rutgers University, Newark</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!------------------services-------------->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-chart-line"></i>
-                <h2> Machine Learning Model Development</h2>
-                <p>Building and deploying custom machine learning models tailored to specific business needs for prediction and classification tasks.</p>
-                <a href="#">Upwork</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-chart-simple"></i>
-                <h2>Statistical Consulting</h2>
-                <p>Providing expert guidance on statistical methodologies, hypothesis testing, and experimental design.</p>
-                <a href="#">Upwork</a>
-            </div>
-            
-            <div>
-                <i class="fas fa-dna"></i>
-                <h2>Genomic Data Analysis</h2>
-                <p>Conducting analysis and interpretation of genomic data, including DNA sequencing, RNA-Seq, and variant analysis.</p>
-                <a href="#">Upwork</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!------------------Portfolio-------------->
-<div id="portfolio">
-    <div class="container"></div>
-    <h1 class="sub-title">My Portfolio</h1>
-    <div class="work-list">
-        <div class="work">
-            <img src="images/01.jpg">
-            <div class="layer">
-                <h3>Naive Bayes</h3>
-                <p>Optimizing Naive Bayes theorem to through a stimulated search and rescue scenario.  This project demonstrates how Bayes' rule can optimize search efforts by updating target probabilities based on various environmental factors and search outcomes  </p>
-                <a href="/Users/kashishbhatt/Desktop/Desktop - Kashish’s MacBook Air/Miseclanous /Codes /webdesign/Webdesign/project1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/02.jpg">
-            <div class="layer">
-                <h3>SOME PROJECT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  llum dolore eu fugiat nulla pariatur. Excepteur sint </p>
-                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/03.jpg">
-            <div class="layer">
-                <h3>SOME PROJECT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  llum dolore eu fugiat nulla pariatur. Excepteur sint </p>
-                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-    </div>
-    <a href="#" class="btn"> See More</a>
-</div>
-
-<!-- Contact Section -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>  
-                <p><i class="fa-solid fa-paper-plane"></i> kabhatt826@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> 732-912-1368</p>
-                <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-                <a href="images/Contact Form.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
+        <h2>Blog Title</h2>
+        <p>Your blog article content goes here...</p>
     </div>
     <div class="copyright">
         <p> Copyrigt © Kashish. Designed for excellence <i class="fa-solid fa-trophy"></i></p>
     </div>
 </div>
-
-<script>
-    var tablinks = document.getElementsByClassName("tab_links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname, event) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-        event.stopPropagation();
-    }
-</script>
-
-<script>
-    var sidemenu = document.getElementById("sidemenu");
-
-    // Function to open menu on hover
-    function openmenu() {
-        sidemenu.style.right = "0";
-    }
-
-    // Function to close menu when cursor leaves
-    function closemenu() {
-        sidemenu.style.right = "-200px";
-    }
-
-    // Event listener for hover
-    sidemenu.addEventListener("mouseenter", openmenu);
-    sidemenu.addEventListener("mouseleave", closemenu);
-</script>
-
-<script>
-const scriptURL = 'https://script.google.com/macros/s/AKfycbz6EXQHGnlPayecBzCtLKdzzWBT4Qx3LcryMr4mdA1b-m1aFQKUWk59Gjz46BVC5-T3Vw/exec';
-const form = document.forms['submit-to-google-sheet'];
-const msg = document.getElementById('msg');
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-            msg.innerHTML = "Thank you for your message, I will get back to you shortly.";
-            setTimeout(function() {
-                msg.innerHTML = "";
-            }, 5000);
-            form.reset();
-        })
-        .catch(error => console.error('Error!', error.message));
-});
-
-</script>
-
-
-    </body>
-</html>
+</body>
