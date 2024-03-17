@@ -439,8 +439,14 @@ nav .fas{
 }
 
 .container {
-    max-width: 800px;
+    width: 50%;
+    border: 2px solid navy;
     margin: 0 auto;
+    color: #FFF;
+    background: navy;
+    opacity: 0.8;
+    border-radius: 5px
+    
 }
 
 article {
