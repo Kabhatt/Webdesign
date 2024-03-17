@@ -431,13 +431,39 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-#project {
+#Project {
     background-color: #fff;
-    padding: 80px 0;
-    color: darkgrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    max-width: 1200px; /* Adjust as needed */
+    max-width: 800px;
     margin: 0 auto;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+article section {
+    margin-bottom: 30px;
+}
+
+article section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.formula {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
