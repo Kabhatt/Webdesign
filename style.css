@@ -439,11 +439,12 @@ nav .fas{
 }
 
 .container1 {
-    width: 50%;
-    border: 2px solid navy;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid pink;
     margin: 0 auto;
-    color: #FFF;
-    background: navy;
+    color: black;
+    background: white;
     opacity: 0.8;
     border-radius: 5px
     
