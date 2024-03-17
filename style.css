@@ -430,3 +430,13 @@ nav .fas{
     display: block;
     font-size: 20px;
 }
+/* ------------------------- Project --------------------- */
+#project {
+    padding: 80px 0;
+    color: darkgrey;
+}
+
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+}
