@@ -449,3 +449,9 @@ nav .fas{
     border-radius: 5px
     
 }
+
+#article {
+    width: auto;
+    height: auto;
+    color: black;
+}
