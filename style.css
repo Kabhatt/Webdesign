@@ -450,8 +450,10 @@ nav .fas{
     
 }
 
-article {
+article1 {
     margin-bottom: 30px;
+    width: fit-content;
+    height: fit-content;
 }
 
 article header h2 {
