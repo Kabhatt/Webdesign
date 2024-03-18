@@ -451,7 +451,7 @@ nav .fas{
 }
 
 #article {
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
     color: black;
 }
