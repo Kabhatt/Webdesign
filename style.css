@@ -431,39 +431,3 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-#Project {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 2px solid pink;
-    color: black;
-    background: white;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-#article {
-    width: fit-content;
-    height: fit-content;
-    color: black;
-}
-
-.copyright {
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #808000;
-    font-weight: 300;
-    margin-top: 20px;
-}
-
-.copyright i {
-    color: gold;
-}
