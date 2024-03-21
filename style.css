@@ -439,9 +439,9 @@ nav .fas{
 }
 
 .project-page .container1 header {
-    text-align: center; /* Center-align the text */
-    font-style: italic; /* Italicize the text */
-    color: blue; /* Set the text color to blue */
-    font-family: cursive; /* Use a cursive font */
-    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-align: center; 
+    font-style: italic; 
+    color: rgb(6, 100, 83);  
+    font-family: cursive;  
+    margin-bottom: 20px; 
 }
