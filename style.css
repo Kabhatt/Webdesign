@@ -431,3 +431,17 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
+.project-page .project{
+    background-color: #fff;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.project-page .container1 header {
+    text-align: center; /* Center-align the text */
+    font-style: italic; /* Italicize the text */
+    color: blue; /* Set the text color to blue */
+    font-family: cursive; /* Use a cursive font */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
