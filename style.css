@@ -438,16 +438,15 @@ nav .fas{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container1 {
-    width: fit-content;
-    height: 700px;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
     border: 2px solid pink;
-    margin: 0 auto;
     color: black;
     background: white;
     opacity: 0.8;
-    border-radius: 5px
-    
+    border-radius: 5px;
 }
 
 #article {
@@ -455,7 +454,8 @@ nav .fas{
     height: fit-content;
     color: black;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -464,7 +464,6 @@ nav .fas{
     margin-top: 20px;
 }
 
-.copyright i{
+.copyright i {
     color: gold;
 }
-
