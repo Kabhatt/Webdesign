@@ -441,6 +441,10 @@ nav .fas{
     background-size: cover;
     background-position: center;
 }
+.project-page .container1 article{
+    width: max-content;
+    height: max-content;
+}
 
 .project-page .container1 header {
     text-align: center; 
@@ -453,4 +457,9 @@ nav .fas{
 .project-page .container1 section {
     color: black;
     text-align: center;
+}
+
+.project-page .Thomas{ 
+    float: left;
+    margin-right: 15px; 
 }
