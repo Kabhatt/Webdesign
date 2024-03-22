@@ -435,6 +435,8 @@ nav .fas{
     margin-top: 1px;
     background:#fff;
     position: relative;
+    width: fit-content;
+    height: fit-content;
 }
 .project-page .project{
     background-image: url(images/background.jpg);
