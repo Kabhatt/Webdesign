@@ -437,7 +437,7 @@ nav .fas{
     position: relative;
 }
 .project-page .project{
-    background-color: #fff;
+    background-color: black;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
