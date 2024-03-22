@@ -433,11 +433,11 @@ nav .fas{
 /* ------------------------- Project --------------------- */
 .project-page .container1{
     margin-top: 1px;
-    background: #fff;
+    background:#fff;
     position: relative;
 }
 .project-page .project{
-    background-color: black;
+    color: #080808;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
