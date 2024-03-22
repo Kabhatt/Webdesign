@@ -437,7 +437,6 @@ nav .fas{
     position: relative;
 }
 .project-page .project{
-    color: #080808;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -451,7 +450,7 @@ nav .fas{
     margin-bottom: 20px; 
     
 }
-.project-page .intro text{
+.project-page .intro {
     color: black;
     text-align: justify;
 }
