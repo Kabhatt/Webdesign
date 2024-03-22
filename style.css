@@ -431,6 +431,11 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
+.project-page .container1{
+    background: #fff;
+    position: relative;
+
+}
 .project-page .project{
     background-color: #fff;
     background-image: url(images/background.jpg);
