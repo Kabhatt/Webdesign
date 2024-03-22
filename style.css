@@ -435,8 +435,6 @@ nav .fas{
     margin-top: 1px;
     background: #fff;
     position: relative;
-    height: 200px;
-
 }
 .project-page .project{
     background-color: #fff;
@@ -452,4 +450,8 @@ nav .fas{
     font-family: cursive;  
     margin-bottom: 20px; 
     
+}
+.project-page .intro text{
+    color: black;
+    text-align: justify;
 }
