@@ -432,6 +432,7 @@ nav .fas{
 }
 /* ------------------------- Project --------------------- */
 .project-page .container1{
+    margin-top: 1px;
     background: #fff;
     position: relative;
 
@@ -449,4 +450,5 @@ nav .fas{
     color: rgb(6, 100, 83);  
     font-family: cursive;  
     margin-bottom: 20px; 
+    
 }
