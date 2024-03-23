@@ -451,12 +451,12 @@ nav .fas{
     margin-top: 1px;
     background:#fff;
     position: relative;
-    width: 70%;
-    height: 70%;
 }
 .project-page .container1 section {
     color: black;
     text-align: center;
+    width: 70%;
+    height: 70%;
 }
 
 .project-page .Thomas{ 
