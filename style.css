@@ -439,8 +439,8 @@ nav .fas{
     width: 100%;
 }
 .project-page .container{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 
 }
 .project-page .container1 header {
@@ -455,6 +455,7 @@ nav .fas{
     margin-top: 1px;
     background:#fff;
     position: relative;
+    height: auto;
 }
 .project-page .container1 section {
     color: black;
