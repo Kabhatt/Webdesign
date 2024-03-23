@@ -451,8 +451,8 @@ nav .fas{
     margin-top: 1px;
     background:#fff;
     position: relative;
-    width: fit-content;
-    height: fit-content;
+    width: 70%;
+    height: 70%;
 }
 .project-page .container1 section {
     color: black;
