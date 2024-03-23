@@ -438,7 +438,11 @@ nav .fas{
     height: 100%;
     width: 100%;
 }
+.project-page .container{
+    height: auto;
+    width: auto;
 
+}
 .project-page .container1 header {
     text-align: center; 
     font-style: italic; 
@@ -455,8 +459,6 @@ nav .fas{
 .project-page .container1 section {
     color: black;
     text-align: center;
-    width: 70%;
-    height: 70%;
 }
 
 .project-page .Thomas{ 
