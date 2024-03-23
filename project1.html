@@ -33,7 +33,7 @@
                 <div class="container1">
                     <article>
                         <header>
-                            Finding Lost Sailors Using Naïve Bayes
+                        <h1>Finding Lost Sailors Using Naïve Bayes </h1>
                         </header>
                         <section>
                             <p>In 1763, Richard Price, a moral philosopher, introduced the essay, “An Essay Towards Solving a Problem in the Indoctrine of Chances,” by Thomas Bayes. <img src="images/ThomasBayes.png"  class="Thomas" alt="Thomas Bayes Image"> /
@@ -48,12 +48,55 @@
                                 \( P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \)
                             </div>
                             <p>Here, A is the hypothesis and B is data. \( P(A|B) \) means the probability of A given B. \( P(B|A) \) means the probability of B given A.</p>
-                            <p>Example:</p>
                             <div class="formula">
                                 <strong>Bayes' Rule Example:</strong><br>
                                 \( P(\text{Cancer}|\text{Positive Test}) = \frac{P(\text{Positive Test}|\text{Cancer}) \cdot P(\text{Cancer})}{P(\text{Positive Test})} \)
                             </div>
                             <p>So here the initial probabilities would be based on clinical outcomes.</p>
+                            <h3> Let’s do a few sample problems to get a gist </h3> 
+
+
+<h4> Problem 1: Breast Cancer Outcomes </h4>
+<p> Suppose a mammography screening test for breast cancer has a sensitivity of 90% and a specificity of 93%. The prevalence of breast cancer in the population is 1%. A woman undergoes a mammography screening and the test results come back positive. What is the probability that she actually has breast cancer? </p>
+
+<h2>Solution:</h2>
+        <p>Let's define the following:</p>
+        <ul>
+            <li>P(A) = Probability of having breast cancer = 0.01 (prevalence)</li>
+            <li>P(B|A) = Probability of testing positive given breast cancer = 0.90 (sensitivity)</li>
+            <li>P(¬A) = Probability of not having breast cancer = 1 - P(A) = 0.99</li>
+            <li>P(B|¬A) = Probability of testing positive given no breast cancer = 1 - specificity = 1 - 0.93 = 0.07</li>
+        </ul>
+        <p>Now, let's apply Bayes' theorem:</p>
+        <p>P(A|B) = (P(B|A) * P(A)) / [P(B|A) * P(A) + P(B|¬A) * P(¬A)]</p>
+        <p>Substituting the values:</p>
+        <p>P(A|B) = (0.90 * 0.01) / [(0.90 * 0.01) + (0.07 * 0.99)]</p>
+        <p>P(A|B) ≈ 0.1136</p>
+        <p>So, the probability that the woman actually has breast cancer given a positive mammography screening result is approximately 11.36%.</p>
+
+<h4> Problem 2: Weather Outlook </h4>
+
+<p> Marie is getting married tomorrow at an outdoor ceremony in the desert. In recent years it has rained only 5 days, each year (5/365 = 0.014). Unfortunately, the weatherman has predicted rain for tomorrow. When it rains the weatherman correctly forecasts the rain 90% of the time.  It is 10% of the time when it predicts it incorrectly. What is the probability that it will rain on Marie’s wedding? </p> 
+
+<h2>Solution:</h2>
+    <p>Given:</p>
+    <ul>
+        <li>P(rain) = Probability of rain = 0.014</li>
+        <li>P(Prediction|rain) = Probability of correct prediction given rain = 0.90</li>
+        <li>P(¬rain) = Probability of no rain = 1 - P(rain) = 0.986</li>
+        <li>P(Prediction|¬rain) = Probability of incorrect prediction given no rain = 0.10</li>
+    </ul>
+    <p>Using the provided equation:</p>
+    <p>P(rain|Prediction) = (P(Prediction|rain) * P(rain)) / P(prediction)</p>
+    <p>Calculate the denominator \( P(prediction) \):</p>
+    <p>P(prediction) = P(Prediction|rain) * P(rain) + P(Prediction|¬rain) * P(¬rain)</p>
+    <p>P(prediction) = 0.90 * 0.014 + 0.10 * 0.986 = 0.0126 + 0.0986 = 0.1112</p>
+    <p>Substitute \( P(prediction) \) back into the equation:</p>
+    <p>P(rain|Prediction) = (0.90 * 0.014) / 0.1112</p>
+    <p>P(rain|Prediction) = 0.0126 / 0.1112 ≈ 0.1132</p>
+    <p>So, the probability that it will rain on Marie's wedding given the weatherman's prediction is approximately 11.32%.</p>
+
+
                         </section>
                         <!-- Add more sections for additional content -->
                     </article>
