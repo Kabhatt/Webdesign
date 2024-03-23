@@ -447,6 +447,13 @@ nav .fas{
     margin-bottom: 20px; 
     
 }
+.project-page .container1 article{
+    margin-top: 1px;
+    background:#fff;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
 .project-page .container1 section {
     color: black;
     text-align: center;
@@ -455,5 +462,5 @@ nav .fas{
 .project-page .Thomas{ 
     float: right;
     margin-right: 15px; 
-    size: 20px;
+    size: 10px;
 }
