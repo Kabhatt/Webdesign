@@ -451,8 +451,9 @@ nav .fas{
     width: 80%;
 }
 .project-page article{
-    color: #fff;
-    size: 100%;
+    background-color: #fff;
+    height: max-content;
+    width: 500%;
 }
 .project-page .container1 section {
     color: black;
