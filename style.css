@@ -449,6 +449,7 @@ nav .fas{
 
 .project-page .heads{
     float: inherit;
+    margin-top: 1px;
     text-align: center;
     font-size: medium;
 }
