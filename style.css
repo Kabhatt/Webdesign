@@ -439,7 +439,7 @@ nav .fas{
     width: 100%;
 }
 .project-page .container1 header {
-    text-align: center;
+    text-align: left;
     font-style: italic;
     color: rgb(6, 100, 83);
     font-family: cursive;
