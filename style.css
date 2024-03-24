@@ -439,16 +439,15 @@ nav .fas{
     width: 100%;
 }
 .project-page .container1 header {
-    text-align: center; 
-    font-style: italic; 
-    color: rgb(6, 100, 83);  
-    font-family: cursive;  
-    margin-bottom: 20px; 
-    
+    text-align: center;
+    font-style: italic;
+    color: rgb(6, 100, 83);
+    font-family: cursive;
+    margin-bottom: 20px;
 }
-.project-page .container1 article{
+.project-page .container1 article {
     margin-top: 1px;
-    background:#fff;
+    background: #fff;
     position: relative;
     height: 80%;
     width: 80%;
@@ -457,9 +456,11 @@ nav .fas{
     color: black;
     text-align: center;
 }
-
-.project-page .Thomas{ 
+.project-page .Thomas {
     float: right;
-    margin-right: 15px; 
+    margin-right: 15px;
     size: 10px;
+}
+.formula {
+    font-size: 1.2em;
 }
