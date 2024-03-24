@@ -431,7 +431,7 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-.project-page .project {
+.project-page .container_P {
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
