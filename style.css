@@ -452,6 +452,10 @@ nav .fas{
     height: 80%;
     width: 80%;
 }
+.project-page article{
+    color: #fff;
+    size: 100%;
+}
 .project-page .container1 section {
     color: black;
     text-align: center;
