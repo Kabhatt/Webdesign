@@ -445,7 +445,7 @@ nav .fas{
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
-    max-width: 800px; /* Limit the maximum width of the content */
+    max-width: 100%; /* Adjust the maximum width of the content */
     width: 80%; /* Adjust this as needed */
 }
 
@@ -470,4 +470,11 @@ nav .fas{
 
 .formula {
     font-size: 1.2em;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .project-page .container1 {
+        width: 90%; /* Adjust for smaller screens */
+    }
 }
