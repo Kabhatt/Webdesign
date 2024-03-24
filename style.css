@@ -444,6 +444,7 @@ nav .fas{
 
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #080808;
     padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
     width: 90%;
