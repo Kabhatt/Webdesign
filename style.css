@@ -447,6 +447,12 @@ nav .fas{
     margin-bottom: 20px;
 }
 
+.project-page .heads{
+    float: inherit;
+    text-align: center;
+    font-size: medium;
+}
+
 .project-page .Thomas {
     float: right;
     margin-right: 15px;
