@@ -443,10 +443,10 @@ nav .fas{
 
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    padding: 20px; /* Add padding for better readability */
+    padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
-    max-width: 100%; /* Adjust the maximum width of the content */
-    width: 80%; /* Adjust this as needed */
+    width: max-content;
+    height: min-content;
 }
 
 .project-page .container1 header {
@@ -455,11 +455,6 @@ nav .fas{
     color: rgb(6, 100, 83);
     font-family: cursive;
     margin-bottom: 20px;
-}
-
-.project-page .container1 section {
-    color: black;
-    text-align: left;
 }
 
 .project-page .Thomas {
