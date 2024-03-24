@@ -438,15 +438,15 @@ nav .fas{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust this as needed */
+    height: 100vh;
+    width: 100%; /* Adjust this as needed */
 }
 
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
-    width: max-content;
-    height: min-content;
+    width: 90%;
 }
 
 .project-page .container1 header {
