@@ -18,7 +18,6 @@
 </head>
 <body>
     <div id="header">
-        <div class="container_P">
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul id="sidemenu">
@@ -30,11 +29,10 @@
             
             <!-- Project -->
                 <div class="container1">
-                    <article>
+                    <article class="textbox">
                         <header>
                             <h1>Finding Lost Sailors Using Naïve Bayes</h1>
                         </header>
-                        <section>
                             <p>In 1763, Richard Price, a moral philosopher, introduced the essay, “An Essay Towards Solving a Problem in the Indoctrine of Chances,” by Thomas Bayes. <img src="images/ThomasBayes.png"  class="Thomas" alt="Thomas Bayes Image"> /
                             Naïve Bayes theorem is now a fundamental tool in statistical and Machine Learning. However, the origins of this tool are very unexpected. 
                             This theorem was invented by an English Presbyterian minister in an attempt to prove God’s existence. Thomas Bayes passed away in the year 1763, however, his essay was posthumously published in 1766 by Price. However, during the time of its publication, the essay was not given it’s right recognition, as the mathematics was too extensive to prove. It wasn’t until the invention of the modern computer, with fast processors, that we found the full potential of this mathematical tool. </p>
@@ -94,9 +92,8 @@
                         <p>In this section, we will be reviewing Naïve Bayes using Python Libraries, and the situation will be the search and rescue efforts of a fisherman. This project is found in the book,  “ Real World Python, a Hacker’s Guide to Solving Problems with Code,” by Lee Vaughan. This is the first Chapter of the book. </p>
                         <h3> The Scenario of the Project </h3> 
                         <p>A fisherman has gone missing off the coast of a nation called python. It is our job as the coast guard to find this person. We have already determined a location he was in 6 hours ago, based on his wife’s statements. In the last call, he radioed that he was abandoning ship but we have no clue whether he is in a life raft or whether he is floating in the sea. Even though the water is warm around this time of the year, there is still a risk of hypothermia if the fisherman is floating in the water, especially if that’s for 12 hours or more. If the fisherman is wearing a floatation device, he can last in the water for 3 days.  The currents in the sea off of Cape Python are causing the waves to be choppy, leading to us having a hard time spotting a human in the water despite visibility being good. The wind is blowing from the southwest direction. Usually in the real world, the Coast Guard uses a system called SAROPS, an abbreviation for Coast Guard Search and Rescue Optimal Planning System. This software it’s great because it uses factors like wind tides currents, and whether the body is underwater or on the surface. This allows it to create rectangular search areas in calculating the probabilities of finding lost sailors at Sea, and this allows the most efficient flight patterns to search for them. So in this particular scenario SAROPS has identified at least three search areas and hear what we will do is write the program to apply the base rule to it. We already have enough resources to search for two of the three areas but will have to decide how to allocate those resources so the cost versus value has the best outcome. </p>
-                        <h3> The Strategy <h3/> 
-	<p>Given the vastness of the sea, locating sailors or lost passengers can be a daunting task, akin to finding a needle in a haystack. Initially, we work with target probabilities based on the sealer's last known location, updating them as we obtain search results. However, if the search yields nothing, the likelihood of the sailor being in a different area increases. This mirrors real-life situations where complications arise, potentially leading to inefficiencies in search efforts. In such cases, valuable time may be lost, and the risk to the lost sailor may escalate. This is why the Bayes equation is so important because this way you have a better idea of where to search and you’re not using emotions or throwing shots in the dark. So to aid the search in this stimulation here is what we will do, Optimize the OpenCV Library to build an interface to work with the program. OpenCV stores properties as rows, columns, and channels. Usually, the interface can be very simple, but we would want to have a map of this cape and the search area where we can use this map to sort of display the last position when he was lost and the position where he was found. Open CV is a great library because it allows you to display images drawings and text. </p>
-                        </section>
+                        <h3> The Strategy </h3> 
+                            <p>Given the vastness of the sea, locating sailors or lost passengers can be a daunting task, akin to finding a needle in a haystack. Initially, we work with target probabilities based on the sealer's last known location, updating them as we obtain search results. However, if the search yields nothing, the likelihood of the sailor being in a different area increases. This mirrors real-life situations where complications arise, potentially leading to inefficiencies in search efforts. In such cases, valuable time may be lost, and the risk to the lost sailor may escalate. This is why the Bayes equation is so important because this way you have a better idea of where to search and you’re not using emotions or throwing shots in the dark. So to aid the search in this stimulation here is what we will do, Optimize the OpenCV Library to build an interface to work with the program. OpenCV stores properties as rows, columns, and channels. Usually, the interface can be very simple, but we would want to have a map of this cape and the search area where we can use this map to sort of display the last position when he was lost and the position where he was found. Open CV is a great library because it allows you to display images drawings and text. </p>
                         <!-- Add more sections for additional content -->
                     </article>
                 </div>

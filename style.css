@@ -431,17 +431,6 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-.project-page .container_P {
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%; /* Adjust this as needed */
-}
-
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     color: #080808;
@@ -461,7 +450,8 @@ nav .fas{
 .project-page .Thomas {
     float: right;
     margin-right: 15px;
-    size: 5px;
+    height: 75px;
+    width: 60px;
 }
 
 .formula {
