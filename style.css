@@ -435,8 +435,6 @@ nav .fas{
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
-    height: 100%;
-    width: 100%;
 }
 .project-page .container1 header {
     text-align: left;
@@ -458,7 +456,7 @@ nav .fas{
 }
 .project-page .container1 section {
     color: black;
-    text-align: center;
+    text-align: left;
 }
 .project-page .Thomas {
     float: right;
