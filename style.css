@@ -431,11 +431,24 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-.project-page .project{
+.project-page .project {
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this as needed */
 }
+
+.project-page .container1 {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px; /* Add padding for better readability */
+    border-radius: 10px; /* Add border radius for a nicer look */
+    max-width: 800px; /* Limit the maximum width of the content */
+    width: 80%; /* Adjust this as needed */
+}
+
 .project-page .container1 header {
     text-align: left;
     font-style: italic;
@@ -443,27 +456,18 @@ nav .fas{
     font-family: cursive;
     margin-bottom: 20px;
 }
-.project-page .container1 body {
-    margin-top: 1px;
-    background: #fff;
-    position: relative;
-    height: 80%;
-    width: 80%;
-}
-.project-page article{
-    background-color: #fff;
-    height: max-content;
-    width: 500%;
-}
+
 .project-page .container1 section {
     color: black;
     text-align: left;
 }
+
 .project-page .Thomas {
     float: right;
     margin-right: 15px;
     size: 5px;
 }
+
 .formula {
     font-size: 1.2em;
 }
