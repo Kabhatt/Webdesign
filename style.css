@@ -447,7 +447,7 @@ nav .fas{
     height: 90%;
 }
 
-.project-page .container1 header {
+.project-page .header-text h1{
     text-align: left;
     font-style: italic;
     color: rgb(6, 100, 83);
@@ -462,10 +462,16 @@ nav .fas{
     font-size: medium;
 }
 
+.project-page h2,h3,h4{
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+
 .project-page .Thomas {
     float: right;
     margin-right: 15px;
-    height: 75px;
+    height: 65px;
     width: 60px;
 }
 
@@ -473,8 +479,9 @@ nav .fas{
     font-size: 1.2em;
 }
 
+
 .project-page .copyright{
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
