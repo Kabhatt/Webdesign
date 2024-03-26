@@ -27,7 +27,7 @@
             </nav>
             <body class="container1">
             <!-- Project -->
-            <header class="header-text">
+            <header class="header_proj">
                 <h1>Finding Lost Sailors Using Naïve Bayes</h1>
             </header>
                     <article class="textbox">
@@ -44,12 +44,10 @@
                                 <div class="formula">
                                 <strong>Bayes' Rule:</strong><br>
                                 \( P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \)
-                            </div>
                             <p>Here, A is the hypothesis and B is data. \( P(A|B) \) means the probability of A given B. \( P(B|A) \) means the probability of B given A.</p>
                             <div class="formula">
                                 <strong>Bayes' Rule Example:</strong><br>
                                 \( P(\text{Cancer}|\text{Positive Test}) = \frac{P(\text{Positive Test}|\text{Cancer}) \cdot P(\text{Cancer})}{P(\text{Positive Test})} \)
-                            </div>
                             <p>So here the initial probabilities would be based on clinical outcomes.</p>
                             <h3> Let’s do a few sample problems to get a gist </h3> 
                             <h4> Problem 1: Breast Cancer Outcomes </h4>
@@ -58,7 +56,6 @@
                                 What is the probability that she actually has breast cancer? </p>
                             <h3>Solution:</h3>
                             <p>Let's define the following:</p>
-                            <div class="formula">
                                 <ul>
                                     <li>P(A) = Probability of having breast cancer = 0.01 (prevalence)</li>
                                     <li>P(B|A) = Probability of testing positive given breast cancer = 0.90 (sensitivity)</li>
@@ -71,14 +68,12 @@
                                 <p>P(A|B) = (0.90 * 0.01) / [(0.90 * 0.01) + (0.07 * 0.99)]</p>
                                 <p>P(A|B) ≈ 0.1136</p>
                                 <p>So, the probability that the woman actually has breast cancer given a positive mammography screening result is approximately 11.36%.</p>
-                            </div>
                             <h4> Problem 2: Weather Outlook </h4>
                             <p> Marie is getting married tomorrow at an outdoor ceremony in the desert. In recent years it has rained only 5 days, each year (5/365 = 0.014). 
                                 Unfortunately, the weatherman has predicted rain for tomorrow. When it rains the weatherman correctly forecasts the rain 90% of the time.  
                                 It is 10% of the time when it predicts it incorrectly. What is the probability that it will rain on Marie’s wedding? </p> 
                             <h2>Solution:</h2>
                             <p>Given:</p>
-                            <div class="formula">
                             <ul>
                                 <li>P(rain) = Probability of rain = 0.014</li>
                                 <li>P(Prediction|rain) = Probability of correct prediction given rain = 0.90</li>
@@ -93,6 +88,7 @@
                             <p>Substitute \( P(prediction) \) back into the equation:</p>
                             <p>P(rain|Prediction) = (0.90 * 0.014) / 0.1112</p>
                             <p>P(rain|Prediction) = 0.0126 / 0.1112 ≈ 0.1132</p>
+                            </div>
                         <p>So, the probability that it will rain on Marie's wedding given the weatherman's prediction is approximately 11.32%.</p>
                         <h2> The project </h2> 
                         <p>In this section, we will be reviewing Naïve Bayes using Python Libraries, and the situation will be the search and rescue efforts of a fisherman.

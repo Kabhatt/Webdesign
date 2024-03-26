@@ -438,6 +438,8 @@ nav .fas{
     border-radius: 10px; /* Add border radius for a nicer look */
     width: 100%;
     height: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 .project-page .textbox{
     background-color: #fff;
@@ -447,7 +449,7 @@ nav .fas{
     height: 90%;
 }
 
-.project-page .header-text h1{
+.project-page .header_proj{
     text-align: left;
     font-style: italic;
     color: rgb(6, 100, 83);
@@ -471,8 +473,8 @@ nav .fas{
 .project-page .Thomas {
     float: right;
     margin-right: 15px;
-    height: 65px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .formula {
