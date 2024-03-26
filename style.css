@@ -433,20 +433,12 @@ nav .fas{
 /* ------------------------- Project --------------------- */
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    color: #080808;
     padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
     width: 100%;
     height: 100%;
     margin-top: 2px;
     margin-bottom: 10px;
-}
-.project-page .textbox{
-    background-color: #fff;
-    padding: 1px;
-    position: relative;
-    width: 90%;
-    height: 90%;
 }
 
 .project-page .header_proj{
@@ -479,6 +471,8 @@ nav .fas{
 
 .formula {
     font-size: 1.2em;
+    position: center;
+    color: #808000;
 }
 
 
