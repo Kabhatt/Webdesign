@@ -431,14 +431,6 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-.project-page .header{
-        width: 100%;
-        height: 100%;
-        background-image: url(images/background.jpg);
-        background-size: cover;
-        background-position: center;
-}
-
 .project-page .container1 {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 4px; /* Add padding for better readability */
