@@ -448,14 +448,6 @@ nav .fas{
     border-radius: 10px;
 }
 
-.header_proj{
-    text-align: left;
-    font-style: italic;
-    color: rgb(6, 100, 83);
-    font-family: cursive;
-    margin-bottom: 20px;
-}
-
 .heads{
     float: inherit;
     margin-top: 1px;
@@ -479,7 +471,7 @@ nav .fas{
 .formula {
     font-size: 1.2em;
     position: center;
-    color:palegreen;
+    color: rgb(6, 100, 83);
 }
 
 .project1 .copyright{
