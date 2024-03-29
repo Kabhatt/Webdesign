@@ -438,16 +438,16 @@ nav .fas{
     padding: 0px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
     width: 100vh;
-    height: 600vh;
+    height: 6000vh;
     margin-top: 2px;
     margin-bottom: 10px;
 }
 
-.project-page article{
+.project-page .art{
     background-color: #fff;
     padding: 1px;
     width: 90%;
-    height: 500%;
+    height: 5050vh;
 }
 .project-page .header_proj{
     text-align: left;
