@@ -476,10 +476,6 @@ nav .fas{
     color: rgb(6, 100, 83);
 }
 
-.project1 .copyright{
-    position: absolute;
-    margin-bottom: 0;
-}
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
     .project-page .container1 {
