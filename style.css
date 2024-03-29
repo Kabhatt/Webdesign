@@ -462,10 +462,10 @@ nav .fas{
     font-size: medium;
 }
 
-.project-page .Thomas {
+.Thomas {
     float: right;
-    height: 30px;
-    width: 30px;
+    height: 10px;
+    width: 10px;
 }
 .project-page li{
     text-align: center;
