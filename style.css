@@ -431,7 +431,7 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-.project-page .container1 {
+.project-page .container{
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
@@ -441,6 +441,12 @@ nav .fas{
     margin-bottom: 10px;
 }
 
+.project-page article{
+    background-color: #fff;
+    padding: 1px;
+    width: 90%;
+    height: 500%;
+}
 .project-page .header_proj{
     text-align: left;
     font-style: italic;
