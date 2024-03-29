@@ -431,7 +431,7 @@ nav .fas{
     font-size: 20px;
 }
 /* ------------------------- Project --------------------- */
-#project1 .container1{
+.container1{
     background-image: url(images/background.jpg);
     background-size: 100%;
     background-position: center;
@@ -440,7 +440,7 @@ nav .fas{
     margin: 0;
 }
 
-#project1 .art{
+.art{
     background-color: white;
     width: 80%;
     margin: 0 auto;
