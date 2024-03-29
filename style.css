@@ -432,7 +432,9 @@ nav .fas{
 }
 /* ------------------------- Project --------------------- */
 .project-page .container{
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-image: url(images/background.jpg);
+    background-size: cover; /* Adjust to cover or contain as needed */
+    background-position: center; /* Semi-transparent white background */
     padding: 4px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
     width: 100%;
