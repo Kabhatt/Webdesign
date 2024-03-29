@@ -443,7 +443,6 @@ nav .fas{
 
 .art{
     background-color: white;
-    color: #080808;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
@@ -465,9 +464,9 @@ nav .fas{
 .project1 li{
     text-align: center;
 }
-.project1 p{
+p{
     font-size: small;
-    text-decoration-color:#808000;
+    text-decoration-color:black;
 }
 
 .formula {
