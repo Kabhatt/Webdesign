@@ -435,10 +435,10 @@ nav .fas{
     background-image: url(images/background.jpg);
     background-size: cover; /* Adjust to cover or contain as needed */
     background-position: center; /* Semi-transparent white background */
-    padding: 4px; /* Add padding for better readability */
+    padding: 0px; /* Add padding for better readability */
     border-radius: 10px; /* Add border radius for a nicer look */
-    width: 100%;
-    height: 600%;
+    width: 100vh;
+    height: 600vh;
     margin-top: 2px;
     margin-bottom: 10px;
 }
@@ -469,13 +469,19 @@ nav .fas{
     height: 30px;
     width: 30px;
 }
+.project-page li{
+    text-align: center;
+}
+.project-page p{
+    font-size: small;
+    text-decoration-color:#808000;
+}
 
 .project-page .formula {
     font-size: 1.2em;
     position: center;
     color: #808000;
 }
-
 
 .project-page .copyright{
     margin-bottom: 1%;
