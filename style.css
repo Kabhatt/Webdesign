@@ -438,10 +438,12 @@ nav .fas{
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+    margin-bottom: 4px;
 }
 
 .art{
     background-color: white;
+    color: #080808;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
