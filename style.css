@@ -468,10 +468,10 @@ nav .fas{
     height: 10px;
     width: 10px;
 }
-.project-page li{
+.project1 li{
     text-align: center;
 }
-.project-page p{
+.project1 p{
     font-size: small;
     text-decoration-color:#808000;
 }
@@ -479,10 +479,10 @@ nav .fas{
 .formula {
     font-size: 1.2em;
     position: center;
-    color: #808000;
+    color:palegreen;
 }
 
-.project-page .copyright{
+.project1 .copyright{
     position: absolute;
     margin-bottom: 0;
 }
