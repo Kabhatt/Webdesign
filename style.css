@@ -447,6 +447,7 @@ nav .fas{
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
+    color: #080808;
 }
 
 .heads{
@@ -466,7 +467,7 @@ nav .fas{
 }
 p{
     font-size: small;
-    color: #080808;
+
 }
 
 .formula {
