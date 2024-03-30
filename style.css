@@ -459,15 +459,12 @@ nav .fas{
 
 .Thomas {
     float: right;
-    height: 80px;
-    width: 80 px;
+    height: 100px;
+    width: 100px;
 }
-.project1 li{
-    text-align: center;
-}
-p{
-    font-size: small;
 
+p{
+    font-size: medium;
 }
 
 .formula {
