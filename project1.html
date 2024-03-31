@@ -117,11 +117,20 @@
                 Usually, the interface can be very simple, but we would want to have a map of this cape and the search area where we can use this map to sort of display the last position when he was lost and the position where he was found. Open CV is a great library because it allows you to display images drawings and text. </p>
                         <!-- Add more sections for additional content -->
                 <h3> The Project </h3>
-                <p> Click on the link below to interact with the project</p>
-                <script src="bayes.py"></script>
+                <p>Click on the section below to view the Python code:</p>
+                <button onclick="showPythonCode()">View Python Code</button>
+                <div id="pythonCode" style="display: none;">
+                    <script src="bayes.py"></script>
             </article> 
             </body>
     <footer class="copyright" style="margin-bottom: 0%;">
         <p> Copyright © Kashish. Designed for excellence <i class="fa-solid fa-trophy"></i></p>
     </footer>
+<!-- JavaScript for showing Python code -->
+<script>
+    function showPythonCode() {
+        var pythonCodeDiv = document.getElementById("pythonCode");
+        pythonCodeDiv.style.display = "block";
+    }
+</script>
 </html>
