@@ -118,8 +118,8 @@
                         <!-- Add more sections for additional content -->
                 <h3> The Project </h3>
                 <p>Click on the section below to view the Python code:</p>
-                <button onclick="showPythonCode()">View Python Code</button>
-                <div id="pythonCode" style="display: none;">
+                <button onclick="executePythonCode()">Execute Python Code</button>
+                <div id="output"></div>
                     <script src="bayes.py"></script>
             </article> 
             </body>
@@ -127,10 +127,25 @@
         <p> Copyright © Kashish. Designed for excellence <i class="fa-solid fa-trophy"></i></p>
     </footer>
 <!-- JavaScript for showing Python code -->
+
 <script>
-    function showPythonCode() {
-        var pythonCodeDiv = document.getElementById("pythonCode");
-        pythonCodeDiv.style.display = "block";
+    function executePythonCode() {
+        // Send an AJAX request to the Flask server
+        fetch('/execute_code', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({})
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Display the output of Python code execution
+            document.getElementById('output').innerText = data.output;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
     }
 </script>
 </html>
