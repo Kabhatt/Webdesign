@@ -2,10 +2,10 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Define route to serve HTML page
-@app.route('http://localhost:5000/')
-def index():
-    return render_template('index.html')
+# Define route to serve project1.html
+@app.route('/')
+def project():
+    return render_template('project1.html')
 
 # Define route to handle AJAX request
 @app.route('/execute_code', methods=['POST'])
