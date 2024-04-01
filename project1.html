@@ -160,48 +160,16 @@
                 <p>Click on the section below to view the Python code:</p>
                 <button onclick="executePythonCode()">Execute Python Code</button>
                 <div id="output"></div>
-                    <script src="bayes.py"></script>
+                <button onclick="viewPythonCode()">View Python Code</button>
             </article> 
             </body>
     <footer class="copyright" style="margin-bottom: 0%;">
         <p> Copyright © Kashish. Designed for excellence <i class="fa-solid fa-trophy"></i></p>
     </footer>
-<!-- JavaScript for showing Python code -->
-
-<script>
-    function executePythonCode() {
-        // Send an AJAX request to the Flask server
-        fetch('/execute_code', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({})
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Display the output of Python code execution
-            document.getElementById('pythonCode').innerText = data.output;
-            // Open the modal
-            document.getElementById('myModal').style.display = "block";
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    }
-
-    // Close the modal when the close button is clicked
-    document.getElementsByClassName('close')[0].onclick = function() {
-        document.getElementById('myModal').style.display = "none";
-    }
-
-    // Close the modal when clicking outside of it
-    window.onclick = function(event) {
-        var modal = document.getElementById('myModal');
-        if (event.target == modal) {
-            modal.style.display = "none";
+    <script>
+        function viewPythonCode() {
+            window.location.href = "baye.html"; // Replace "baye.html" with the path to your HTML page containing the Python code
         }
-    }
-</script>
+    </script>
+    
 
-</html>

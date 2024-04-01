@@ -1,31 +1,26 @@
-from flask import Flask, render_template, request, jsonify
-import subprocess
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Define route to serve project1.html
-@app.route('/')
-def project():
-    return render_template('project1.html')
-
-# Define route to handle AJAX request for executing Python code
 @app.route('/execute_code', methods=['POST'])
 def execute_code():
-    try:
-        # Execute the Python code from baye.py
-        result = subprocess.run(['python', 'baye.py'], capture_output=True, text=True)
-        output = result.stdout
-        error = result.stderr
+    if request.method == 'POST':
+        # Extract data from the request
+        data = request.get_json()
+        # Process the data (e.g., execute the provided code)
+        result = process_data(data)
+        # Return a JSON response
+        return jsonify(result)
+    else:
+        # Handle other HTTP methods (e.g., GET) if needed
+        return 'Method Not Allowed', 405
 
-        # If there was an error, return the error message
-        if error:
-            return jsonify({'output': error})
-
-        # Return the output of Python code execution
-        return jsonify({'output': output})
-    except Exception as e:
-        # Return the exception message if an error occurred
-        return jsonify({'output': str(e)})
+def process_data(data):
+    # Example function to process the data (replace with your logic)
+    code = data.get('code')
+    # Execute the code and return the result
+    result = eval(code)
+    return {'result': result}
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)  # Run the Flask app in debug mode
