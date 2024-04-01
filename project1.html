@@ -10,7 +10,47 @@
     <!-- MathJax CDN -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!----------Adding a Modular-------------------------------->
+<!-- Add modal HTML and JavaScript here -->
+<style>
+    /* Modal styles */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
 
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* Close button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+<!------------The Project------------------------>
 </head>
     <div id="header">
             <nav>
@@ -141,11 +181,27 @@
         .then(response => response.json())
         .then(data => {
             // Display the output of Python code execution
-            document.getElementById('output').innerText = data.output;
+            document.getElementById('pythonCode').innerText = data.output;
+            // Open the modal
+            document.getElementById('myModal').style.display = "block";
         })
         .catch(error => {
             console.error('Error:', error);
         });
     }
+
+    // Close the modal when the close button is clicked
+    document.getElementsByClassName('close')[0].onclick = function() {
+        document.getElementById('myModal').style.display = "none";
+    }
+
+    // Close the modal when clicking outside of it
+    window.onclick = function(event) {
+        var modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 </script>
+
 </html>
